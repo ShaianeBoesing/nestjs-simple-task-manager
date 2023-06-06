@@ -4,7 +4,7 @@ Este é um aplicativo de gerenciamento de tarefas desenvolvido com o framework N
 
 ## Descrição
 
-O Task Manager é uma aplicação que permite aos usuários criar, visualizar, atualizar e excluir tarefas. Ele fornece uma interface simples e intuitiva para o gerenciamento eficiente de suas tarefas diárias.
+O Task Manager é uma aplicação que permite aos usuários criar, visualizar, atualizar e excluir tarefas.
 
 ## Funcionalidades
 
