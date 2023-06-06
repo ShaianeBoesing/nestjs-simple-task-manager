@@ -27,7 +27,7 @@ O Task Manager é uma aplicação que permite aos usuários criar, visualizar, a
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/ShaianeBoesing/nestjs-simple-task-manager.git
 ```
 
 2. Instale o repositório:
