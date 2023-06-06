@@ -49,6 +49,9 @@ npm run start:dev
 ```
 O aplicativo será executado em http://localhost:3000.
 
+5. Use a aplicação:
+Importe o arquivo `api_collection.json` no Postman ou similares e teste a API REST
+
 ## Testes
 Para executar os testes unitários:
 
@@ -61,5 +64,3 @@ Para executar os testes de integração:
 npm run test:e2e
 ```
 
-5. Use a aplicação:
-Importe o arquivo `api_collection.json` no Postman ou similares e teste a API REST
