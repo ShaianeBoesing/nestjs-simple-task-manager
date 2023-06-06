@@ -53,7 +53,7 @@ O aplicativo será executado em http://localhost:3000.
 Para executar os testes unitários:
 
 ``` 
-npm run start:dev
+npm run test
 ```
 Para executar os testes de integração:
 
