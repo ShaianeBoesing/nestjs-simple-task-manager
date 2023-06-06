@@ -60,3 +60,6 @@ Para executar os testes de integração:
 ``` 
 npm run test:e2e
 ```
+
+5. Use a aplicação:
+Importe o arquivo `api_collection.json` no Postman ou similares e teste a API REST
