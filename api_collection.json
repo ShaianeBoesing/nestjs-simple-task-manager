@@ -1,0 +1,119 @@
+{
+    "info": {
+      "_postman_id": "YOUR_POSTMAN_COLLECTION_ID",
+      "name": "NestJS API",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Listar tarefas",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{base_url}}/tasks",
+            "host": [
+              "{{base_url}}"
+            ],
+            "path": [
+              "tasks"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Obter tarefa por ID",
+        "request": {
+          "method": "GET",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{base_url}}/tasks/1",
+            "host": [
+              "{{base_url}}"
+            ],
+            "path": [
+              "tasks",
+              "1"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Criar tarefa",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"title\": \"Nova tarefa\",\n  \"description\": \"Descrição da nova tarefa\",\n  \"completed\": false\n}"
+          },
+          "url": {
+            "raw": "{{base_url}}/tasks",
+            "host": [
+              "{{base_url}}"
+            ],
+            "path": [
+              "tasks"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Atualizar tarefa",
+        "request": {
+          "method": "PUT",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"title\": \"Tarefa atualizada\",\n  \"description\": \"Descrição atualizada\",\n  \"completed\": true\n}"
+          },
+          "url": {
+            "raw": "{{base_url}}/tasks/1",
+            "host": [
+              "{{base_url}}"
+            ],
+            "path": [
+              "tasks",
+              "1"
+            ]
+          }
+        },
+        "response": []
+      },
+      {
+        "name": "Excluir tarefa",
+        "request": {
+          "method": "DELETE",
+          "header": [],
+          "body": {},
+          "url": {
+            "raw": "{{base_url}}/tasks/1",
+            "host": [
+              "{{base_url}}"
+            ],
+            "path": [
+              "tasks",
+              "1"
+            ]
+          }
+        },
+        "response": []
+      }
+    ]
+  }
+  
