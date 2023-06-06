@@ -44,16 +44,19 @@ npm install
 
 4. Execute a aplicação:
 
-``` npm run start:dev
+``` 
+npm run start:dev
 ```
 O aplicativo será executado em http://localhost:3000.
 
 ## Testes
 Para executar os testes unitários:
 
-``` npm run start:dev
+``` 
+npm run start:dev
 ```
 Para executar os testes de integração:
 
-``` npm run test:e2e
+``` 
+npm run test:e2e
 ```
